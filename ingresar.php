@@ -4,20 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>ingresar libro</title>
 </head>
 <header>ingresa los datos del libro</header>
 <body>
 	<form action="administrar_libro.php" method="post">
-		<table>
+		<table style="margin-left: auto;margin-right: auto;">
 			<tr>
 				<td>Nombre libro: </td>
 				<td><input type="text" name="nombre"></td>
 			</tr>
 			<input type="hidden" name="insertar" value="insertar">
 		</table>
-		<input type="submit" value="guardar">
-		<a href="index.php">Volver</a>
+		<a onclick="javascript: document.getElementById('submit').click()" class="waves-effect waves-light btn"><i class="material-symbols-outlined left">save</i>Guardar</a>
+		<input class="waves-effect waves-light btn" type="submit" value="guardar" id="submit" style="visibility: hidden;">
 	</form>
 </body>
-</html>
+</ht
