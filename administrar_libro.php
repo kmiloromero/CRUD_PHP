@@ -1,6 +1,6 @@
 <?php
 //incluye la clase libro y crud libro
-require_once('crud_librp.php');
+require_once('crud_libro.php');
 require_once('libro.php');
 $crud=new CrudLibro();
 $libro=new Libro();

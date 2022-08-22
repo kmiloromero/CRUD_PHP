@@ -9,7 +9,7 @@
 	<header>Bienvenido Administrar libro</header>
 	<table border=1>
 		<tr>
-			<td><a href="ingresar.php"></a></td>
+			<td><a href="ingresar.php">Ingresar</a></td>
 		</tr>
 		<tr>
 			
