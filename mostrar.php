@@ -15,7 +15,7 @@ $listaLibros=$crud->mostrar();
 	<title>MOSTRAR BOOKS</title>
 </head>
 <body>
-	<table border=1>
+	<table class="highlight" border=1>
 		<head>
 			<td>Nombre</td>
 			<td>Actualizar</td>
