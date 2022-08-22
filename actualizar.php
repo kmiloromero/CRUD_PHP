@@ -4,7 +4,7 @@ require_once('crud_libro.php');
 require_once('libro.php');
 $crud=new CrudLibro();
 $libro=new Libro();
-$listaLibros=$crud->obtenerLibror($_GET['id']);
+$listaLibros=$crud->obtenerLibro($_GET['id']);
 ?>
 <!DOCTYPE html>
 <html>
