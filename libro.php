@@ -14,16 +14,16 @@ class Libro{
 		return $this->nombre;
 	}
 
-	public function setNombre(){
+	public function setNombre($nombre){
 		$this->nombre=$nombre;
 	}
 
 	public function getId(){
-		return $this->nombre;
+		return $this->id;
 	}
 
-	public function setId(){
-		$this->nombre=$id;
+	public function setId($id){
+		$this->id=$id;
 	}
 
 }

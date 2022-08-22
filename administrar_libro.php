@@ -7,7 +7,8 @@ $libro=new Libro();
 
 	//si el elemeto no viene nulo llama al crud e insertar un libro
 	if(isset($_POST['insertar'])){
-		libro->setNombre($_POST['nombre']);
+		print_r($_POST);
+		$libro->setNombre($_POST['nombre']);
 	// llama funcion bsertar def en crud
 		$crud-> insertar($libro);
 		header('Location: index.php');
