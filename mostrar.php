@@ -33,7 +33,7 @@ $listaLibros=$crud->mostrar();
           </tr>
           <?php }?>
         </tbody>
-      </table>
+      </table>	
 	<a href="index.php">Volver</a>
 </body>
 </html>
