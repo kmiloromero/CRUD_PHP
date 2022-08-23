@@ -19,14 +19,15 @@
 	<form action="administrar_libro.php" method="post">
 		<table style="margin-left: auto;margin-right: auto;">
 			<tr>
-				<td>Nombre libro: </td>
-				<td><input type="text" name="nombre"></td>
+				<td style="width: 100px;">Nombre libro: </td>
+				<td><input type="text" name="nombre" style="width: 70%;"></td>
 			</tr>
 			<input type="hidden" name="insertar" value="insertar">
 		</table>
+		<a href="index.php"class="waves-effect waves-light btn"><i class="material-icons left">arrow_back</i>Volver</a>
 		<a onclick="javascript: document.getElementById('submit').click()" class="waves-effect waves-light btn"><i class="material-symbols-outlined left">save</i>Guardar</a>
 		<input class="waves-effect waves-light btn" type="submit" value="guardar" id="submit" style="visibility: hidden;">
-			<a href="index.php">Volver</a>
+
 	</form>
 </body>
 </ht
