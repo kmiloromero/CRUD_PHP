@@ -16,15 +16,14 @@
   </nav>
 	<table border=1>
 		<tr>
-			<td><a href="ingresar.php">Ingresar</a></td>
+		<td><a href="ingresar.php" class="waves-effect waves-light btn"><i class="material-symbols-outlined left"></i>Ingresar</a></td>
 		</tr>
 		<tr>
-			
-			<td><a href="mostrar.php">Ver</a></td>
+			<td><a href="mostrar.php" class="waves-effect waves-light btn"><i class="material-symbols-outlined left"></i>Consultar</a></td>
 		</tr>
 	</table>
 	<footer>
-		administrar Libro 2022
+		<i>App administrar Libro 2022</i>
 	</footer>
 </body>
 </html>
