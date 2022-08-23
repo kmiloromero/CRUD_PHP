@@ -16,6 +16,8 @@ thead {color:white;}
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>MOSTRAR lIBROS</title>
 </head>
 	<nav>
@@ -47,6 +49,8 @@ thead {color:white;}
           <?php }?>
         </tbody>
       </table>	
-	<a href="index.php">Volver</a>
+      <div id="divTest" style="border-top:20px solid white;">
+      <a href="index.php"class="waves-effect waves-light btn"><i class="material-icons left">arrow_back</i>Volver</a>
+      </div>
 </body>
 </html>
