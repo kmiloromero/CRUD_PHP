@@ -8,7 +8,13 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>ingresar libro</title>
 </head>
-<header>ingresa los datos del libro</header>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">ingresa los datos del libro</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
 <body>
 	<form action="administrar_libro.php" method="post">
 		<table style="margin-left: auto;margin-right: auto;">
@@ -20,6 +26,7 @@
 		</table>
 		<a onclick="javascript: document.getElementById('submit').click()" class="waves-effect waves-light btn"><i class="material-symbols-outlined left">save</i>Guardar</a>
 		<input class="waves-effect waves-light btn" type="submit" value="guardar" id="submit" style="visibility: hidden;">
+			<a href="index.php">Volver</a>
 	</form>
 </body>
 </ht

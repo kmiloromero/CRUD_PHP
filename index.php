@@ -7,7 +7,13 @@
 	<title>Admnistrar libro</title>
 </head>
 <body>
-	<header>Bienvenido Administrar libro</header>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Bienvenido Administrar libro</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
 	<table border=1>
 		<tr>
 			<td><a href="ingresar.php">Ingresar</a></td>

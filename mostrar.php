@@ -14,6 +14,13 @@ $listaLibros=$crud->mostrar();
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<title>MOSTRAR BOOKS</title>
 </head>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Consultar libro</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
 <body>
 	<table class="highlight divider " border=1 >
         <thead class="card-panel teal lighten-2">
