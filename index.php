@@ -22,8 +22,13 @@
 			<td><a href="mostrar.php" class="waves-effect waves-light btn"><i class="material-symbols-outlined left"></i>Consultar</a></td>
 		</tr>
 	</table>
-	<footer>
-		<i>App administrar Libro 2022</i>
-	</footer>
+	<footer class="page-footer" style="padding-top: 0px;">
+          <div class="footer-copyright">
+            <div class="container">
+            Administrar Libro 2022
+            <a class="grey-text text-lighten-4 right" >Desarrollo Basado en Plataformas</a>
+            </div>
+          </div>
+    </footer>
 </body>
 </html>
