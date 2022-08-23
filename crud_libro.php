@@ -31,14 +31,14 @@ require_once("conexion.php");
 
 		public function eliminar($id){
 			$db=Db::conectar();
-			$eliminar=$db->prepare("DELETE FROM libros where ID=:id");
+			$eliminar=$db->prepare("DELETE FROM libros where id=:id");
 			$eliminar->bindValue("id",$id);
 			$eliminar->execute();	
 		}
 
 		public function obtenerLibro($id){
 			$db=Db::conectar();
-			$select=$db->prepare('SELECT * from libros where ID=:id');
+			$select=$db->prepare('SELECT * from libros where id=:id');
 			$select->bindValue("id",$id);
 			$select->execute();
 			$libro=$select->fetch();
@@ -48,11 +48,11 @@ require_once("conexion.php");
 			return $myLibro;
 		}
 
-		public function actualizar(){
+		public function actualizar($libro){
 			$db=Db::conectar();
-			$actualizar=$db->prepare("update libros set nombre=:nombre where id=:id");
-			$actualizar->bindValue("id",$libro->getId());
-			$actualizar->bindValue("nombre",$libro->getNombre());
+			$actualizar=$db->prepare("UPDATE libros SET nombre=:nombre WHERE id=:id");
+			$actualizar->bindValue('id',$libro->getId());
+			$actualizar->bindValue('nombre',$libro->getNombre());
 			$actualizar->execute();
 		}
 	}

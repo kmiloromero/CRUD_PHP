@@ -24,4 +24,5 @@ $libro=new Libro();
 	}elseif($_GET['accion']=='a'){
 		header('Location: actualizar.php');
 	}
+
 ?>
