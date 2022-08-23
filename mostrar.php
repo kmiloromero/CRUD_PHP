@@ -9,6 +9,10 @@ $listaLibros=$crud->mostrar();
 
 <html>
 <head>
+	<style>
+thead {color:white;}
+}
+</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -25,9 +29,11 @@ $listaLibros=$crud->mostrar();
 	<table class="highlight divider " border=1 >
         <thead class="card-panel teal lighten-2">
           <tr>
+			  <div id="divTest" style="border:10px solid white;"></div>
               <th>Nombre</th>
               <th>Actualizar</th>
               <th>Eliminar</th>
+
           </tr>
         </thead>
 
